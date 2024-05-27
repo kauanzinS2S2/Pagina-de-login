@@ -1,0 +1,136 @@
+body {
+    background: url(./imagens/8a53974dc064f22ee8ff48f7b016653d.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box-login {
+    width: 350px;
+    height: 350px;
+    backdrop-filter: blur(6px);
+    padding-top: 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.box-login .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-login .titulo {
+    color: #fff;
+    font-size: 30px;
+}
+
+.box-login .formulario .input input{
+    background: transparent;
+    width: 300px;
+    height: 5px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 20px 0px 20px 20px;
+    backdrop-filter: blur(15px);
+    color: white;
+    font-weight: bold;
+}
+
+/* .box-login .input input:focus::placeholder{
+    transform: translateX(100%);
+    transition: transform 0.8s ease-in-out;
+} */
+
+/* .box-login .input input:not(focus)::placeholder {
+    transform: translateY(0%);
+    transition: transform 0.8s ease-in-out;
+    font-size: 16px;
+} */
+
+.box-login .formulario .input input:focus::placeholder{
+    transform: translateX(100%);
+}
+
+/* .box-login .formulario .input input:not(hover)::placeholder {
+    transform: translateY(0%);
+    transition: transform 0.8s ease-in-out;
+    font-size: 16px;
+} */
+
+.box-login input::placeholder {
+    color: #fff;
+    transition: transform 0.8s ease-in-out;
+    font-size: 16px;
+}
+
+.box-login .formulario .usuario {
+    margin-top: 45px;
+}
+
+.box-login .formulario .senha {
+    margin-top: 30px;
+}
+
+.box-login .formulario .senha-esquecida {
+    color: rgba(255, 255, 255, 0.712);
+    margin-top: 25px;
+    font-size: 14px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.box-login .formulario .senha-esquecida:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+/* .box-login .formulario .senha-esquecida:not(hover) {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+} */
+
+.box-login .formulario .botao-login {
+    background-color: #fff;
+    width: 180px;
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.box-login .formulario .botao-login:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.box-login .formulario .botao-login:not(hover) {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.box-login .formulario .criar-conta {
+    color: #000;
+}
+
+.box-login .formulario .criar-conta .registrar {
+    color: #fff;
+}
+
+.box-login .formulario .criar-conta .registrar:hover {
+    text-decoration: underline;
+}
+
+
+
+
